@@ -16,6 +16,14 @@ Classification (Stand, Walk and Pick)
 [Python.org]: https://img.shields.io/badge/Python-FFFFFF?style=for-the-badge&logo=python&logoColor=blue
 [Python-url]: https://www.python.org/
 
+## Documentation
+
+### App Preview
+<img src="preview/1.png" width="400" height="300"> <img src="preview/2.png" width="400" height="300"> <img src="preview/3.png" width="400" height="300">
+
+### Demo
+<img src="preview/demo.gif" width="640" height="360">
+
 ## Installation
 
 - Add [Python](https://www.python.org/downloads/) to your machine

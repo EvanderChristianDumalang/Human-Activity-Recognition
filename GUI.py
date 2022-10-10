@@ -391,7 +391,7 @@ class Help(QWidget):
         self.label_8.setFont(font)
         self.label_8.setWordWrap(True)
         self.label_8.setText(
-            "1. Hubungi Email: Evanderchristiandumalang@gmail.com")
+            "1. Email: Evanderchristiandumalang@gmail.com")
 
 
 def main():

@@ -72,7 +72,7 @@ class VideoThread(QThread):
                     [[landmark.x, landmark.y, landmark.z, landmark.visibility] for landmark in data]).flatten())
                 del pose_row[0:40]
 
-                # Make Detections
+                # Make Recognitions
                 X = pd.DataFrame([pose_row])
                 body_language_class = model.predict(X)[0]
                 body_language_prob = model.predict_proba(X)[0]
@@ -190,7 +190,7 @@ class RealTime(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(0, 0, 1000, 840)
-        self.setWindowTitle('Human Activity Detection')
+        self.setWindowTitle('Human Activity Recognition')
         self.setMinimumSize(QtCore.QSize(1000, 840))
         self.setMaximumSize(QtCore.QSize(1000, 840))
         self.initUI()
@@ -215,7 +215,7 @@ class RealTime(QWidget):
 
         # Label RealTime Detection
         self.label = QtWidgets.QLabel(self)
-        self.label.setText("Real Time Detection")
+        self.label.setText("Real Time Recognition")
         self.label.setGeometry(QtCore.QRect(0, 20, 1000, 41))
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -294,7 +294,7 @@ class About(QWidget):
         self.label_4.setFont(font)
         self.label_4.setWordWrap(True)
         self.label_4.setText(
-            "The activity detection app is designed to analyze the input video and classify the identified activities. This app currently supports only one user.")
+            "The activity recognition app is designed to analyze the input video and classify the identified activities. This app currently supports only one user.")
 
         # Label Name
         self.label_5 = QtWidgets.QLabel(self)

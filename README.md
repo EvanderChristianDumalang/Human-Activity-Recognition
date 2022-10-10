@@ -3,9 +3,9 @@
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/evanderchristiandumalang/
 
-# Human Activity Detection GUI
+# Human Activity Recognition GUI
 
-### Python Human Activity Detection 
+### Python Human Activity Recognition
 
 Classification (Stand, Walk and Pick)
 

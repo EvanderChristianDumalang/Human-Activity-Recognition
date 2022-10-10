@@ -5,9 +5,9 @@
 
 # Human Activity Detection GUI
 
-Python Human Activity Detection (Stand, Walk and Pick)
+### Python Human Activity Detection 
 
-Diponegoro War
+Classification (Stand, Walk and Pick)
 
 ### Built With
 

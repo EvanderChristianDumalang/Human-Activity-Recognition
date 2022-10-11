@@ -54,7 +54,8 @@ class VideoThread(QThread):
             results = pose.process(image)
 
             mp_drawing.draw_landmarks(
-                image, results.pose_landmarks)
+                image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS, 
+                landmark_drawing_spec=mp_drawing_styles.get_default_pose_landmarks_style())
 
             end = time.time()
             totalTime = end - start

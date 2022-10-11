@@ -41,3 +41,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## License
 
 All the code available under the MIT licenses. See [LICENSE](LICENSE).
+
+
+## References
+
+Nicholas Renotte - AI Body Language Decoder with MediaPipe and Python in 90 Minutes
+https://youtu.be/We1uB79Ci-w
